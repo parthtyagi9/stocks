@@ -1,2 +1,2 @@
 # stocks
-A Real-time Stock Market Dashboard
+A Real-time Stock Market Dashboard which uses AI to analyze charts and make predictions
