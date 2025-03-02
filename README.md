@@ -3,3 +3,4 @@ A Real-time Stock Market Dashboard which uses AI to analyze charts and make pred
 
 -> use aws for deployment
 -> use flask for backend
+-> react frontend
