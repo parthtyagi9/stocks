@@ -22,6 +22,16 @@ def get_stock_price(ticker):
         "price": price
     })
 
+# making a dummy prediction button
+@app.route('api/stocks/<string:ticker>/preidct', methods=['POST'])
+def get_predictions(ticker):
+    prediction = {
+        "ticker": ticker.upper(),
+        "prediction": "Bullish",
+        "confidence": 0.9
+    }
+    return jsonify(prediction)
+
 
 if __name__ == "__main__":
     app.run(debug=True)
